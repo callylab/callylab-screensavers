@@ -6,7 +6,7 @@ $refs=@('/reference:System.dll','/reference:System.Core.dll','/reference:System.
 $manifest="/win32manifest:$root\app.manifest"
 New-Item -ItemType Directory -Force $OutputDirectory | Out-Null
 foreach($name in @('ROME','EDO','HEARTH','NIGHTSHIFT')){
- $version=if($name -eq 'NIGHTSHIFT'){'1.0.1'}else{'1.0.0'}
+ $version=if($name -eq 'NIGHTSHIFT'){'1.0.1'}else{'1.1.0'}
  $dir=Join-Path $OutputDirectory "$name-$version"
  New-Item -ItemType Directory -Force $dir | Out-Null
  $symbol=if($name -eq 'HEARTH'){'VILLAGE'}else{$name}
@@ -22,6 +22,7 @@ foreach($name in @('ROME','EDO','HEARTH','NIGHTSHIFT')){
  Get-ChildItem $dir -File | Where-Object Name -ne 'SHA256SUMS.txt' | ForEach-Object { (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower()+'  '+$_.Name } | Set-Content "$dir/SHA256SUMS.txt"
  Compress-Archive -Path $dir -DestinationPath "$OutputDirectory/$name-$version.zip" -Force
 }
+
 
 
 

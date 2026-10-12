@@ -1,84 +1,63 @@
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: ROME installer payload matches standalone SCR
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: ROME actual per-user installation created SCR
 PASS: ROME installed bytes match release
 PASS: ROME Windows selected installed saver
 PASS: ROME registered uninstall entry
 PASS: ROME preserved sign-in setting
 PASS: ROME configuration window opened
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: ROME preview embedded in native parent
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: ROME fullscreen launch opened
-PASS: Process exited successfully
-PASS: Process exited successfully
+PASS: Process exited successfully: 
+PASS: Process exited successfully: 
 PASS: ROME uninstall removed screensaver
 PASS: ROME uninstall removed app registration
 PASS: ROME restored SCRNSAVE.EXE
 PASS: ROME restored ScreenSaveActive
 PASS: ROME restored ScreenSaveTimeOut
 PASS: ROME restored ScreenSaverIsSecure
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: EDO installer payload matches standalone SCR
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: EDO actual per-user installation created SCR
 PASS: EDO installed bytes match release
 PASS: EDO Windows selected installed saver
 PASS: EDO registered uninstall entry
 PASS: EDO preserved sign-in setting
 PASS: EDO configuration window opened
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: EDO preview embedded in native parent
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: EDO fullscreen launch opened
-PASS: Process exited successfully
-PASS: Process exited successfully
+PASS: Process exited successfully: 
+PASS: Process exited successfully: 
 PASS: EDO uninstall removed screensaver
 PASS: EDO uninstall removed app registration
 PASS: EDO restored SCRNSAVE.EXE
 PASS: EDO restored ScreenSaveActive
 PASS: EDO restored ScreenSaveTimeOut
 PASS: EDO restored ScreenSaverIsSecure
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: HEARTH installer payload matches standalone SCR
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: HEARTH actual per-user installation created SCR
 PASS: HEARTH installed bytes match release
 PASS: HEARTH Windows selected installed saver
 PASS: HEARTH registered uninstall entry
 PASS: HEARTH preserved sign-in setting
 PASS: HEARTH configuration window opened
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: HEARTH preview embedded in native parent
-PASS: Process exited successfully
+PASS: Process exited successfully: 
 PASS: HEARTH fullscreen launch opened
-PASS: Process exited successfully
-PASS: Process exited successfully
+PASS: Process exited successfully: 
+PASS: Process exited successfully: 
 PASS: HEARTH uninstall removed screensaver
 PASS: HEARTH uninstall removed app registration
 PASS: HEARTH restored SCRNSAVE.EXE
 PASS: HEARTH restored ScreenSaveActive
 PASS: HEARTH restored ScreenSaveTimeOut
 PASS: HEARTH restored ScreenSaverIsSecure
-PASS: Process exited successfully
-PASS: NIGHTSHIFT installer payload matches standalone SCR
-PASS: Process exited successfully
-PASS: NIGHTSHIFT actual per-user installation created SCR
-PASS: NIGHTSHIFT installed bytes match release
-PASS: NIGHTSHIFT Windows selected installed saver
-PASS: NIGHTSHIFT registered uninstall entry
-PASS: NIGHTSHIFT preserved sign-in setting
-PASS: NIGHTSHIFT configuration window opened
-PASS: Process exited successfully
-PASS: NIGHTSHIFT preview embedded in native parent
-PASS: Process exited successfully
-PASS: NIGHTSHIFT fullscreen launch opened
-PASS: Process exited successfully
-PASS: Process exited successfully
-PASS: NIGHTSHIFT uninstall removed screensaver
-PASS: NIGHTSHIFT uninstall removed app registration
-PASS: NIGHTSHIFT restored SCRNSAVE.EXE
-PASS: NIGHTSHIFT restored ScreenSaveActive
-PASS: NIGHTSHIFT restored ScreenSaveTimeOut
-PASS: NIGHTSHIFT restored ScreenSaverIsSecure

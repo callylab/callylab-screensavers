@@ -4,14 +4,14 @@ Free Windows screensavers from [Cally's Lab](https://callylab.xyz).
 
 | Screensaver | Scene | Audio |
 | --- | --- | --- |
-| ROME 1.0.0 | Moonlit Roman forum, fountain, market walkers and passing cart | Silent |
-| EDO 1.0.0 | Tokugawa canal town, lantern reflections, petals, walkers and boat | Silent |
-| HEARTH 1.0.0 | Medieval English village, warm windows, smoke, villagers and sheep | Silent |
+| ROME 1.1.0 | Roman forum, moving skies, flames, smoke, fountain spray and rain reflections | Silent |
+| EDO 1.1.0 | Tokugawa canal town, rippling water, clouds, smoke and windblown petals | Silent |
+| HEARTH 1.1.0 | Medieval English village, clouds, rolling chimney smoke, fire and rain | Silent |
 | NIGHTSHIFT 1.0.1 | Original retro city scene and original FM-synth soundtrack | Original music with mute/settings |
 
 ## Downloads
 
-Get the ZIPs from [the October 2026 release](https://github.com/callylab/callylab-screensavers/releases/tag/screensavers-2026-10).
+Get the ZIPs from [the October 2026 release](https://github.com/callylab/callylab-screensavers/releases/tag/screensavers-2026-10-motion).
 Every ZIP includes a per-user `NAME-Setup.exe`, a standalone `NAME.scr`, installation/uninstallation instructions, and SHA-256 checksums. Extract before running setup. Unsigned independent Windows software; Windows may show an unknown-publisher warning.
 
 Install through setup or use the raw `.scr` from a permanent folder. Uninstall in Windows Settings > Apps. Setup preserves sign-in-on-resume and restores the previous screensaver selection when uninstalling the currently selected saver. See [INSTALL.txt](INSTALL.txt).
@@ -39,3 +39,8 @@ The lifecycle verification temporarily changes the current user's screensaver an
 The three historical backgrounds were generated for CallyLab using the user's NIGHTSHIFT preview as a visual reference, then paired with original code-driven animation: deep indigo/violet nights, amber lights, cyan moonlight and broken reflections. Source PNGs are embedded at build time.
 
 NIGHTSHIFT 1.0.1 changes packaging/setup only; its original renderer, artwork and soundtrack remain intact. BREACH is retired from current website offerings. Its September release remains available as a historical asset and has not been deleted.
+
+## Motion update 1.1.0
+
+Approved motion-study renderer: removed all procedural people, riders, carts, boats and sheep. Added moving cloud layers, stars/shooting star, animated fire/glows/embers, rolling smoke, drizzle/splashes, mist, fountain spray, foliage and stronger reflections. The three historical scenes remain entirely silent. NIGHTSHIFT unchanged.
+

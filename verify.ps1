@@ -23,7 +23,7 @@ $names=@('SCRNSAVE.EXE','ScreenSaveActive','ScreenSaveTimeOut','ScreenSaverIsSec
 function Snapshot { $k=Get-Item $reg;$a=@{};foreach($n in $names){$a[$n]=$k.GetValue($n,$null)};return $a }
 $before=Snapshot
 foreach($n in @('ROME','EDO','HEARTH','NIGHTSHIFT')){
- $v=if($n -eq 'NIGHTSHIFT'){'1.0.1'}else{'1.0.0'}
+ $v=if($n -eq 'NIGHTSHIFT'){'1.0.1'}else{'1.1.0'}
  $dir="$PSScriptRoot/release/$n-$v";$setup=(Resolve-Path "$dir/$n-Setup.exe").Path;$scr=(Resolve-Path "$dir/$n.scr").Path
  $installed="$env:LOCALAPPDATA/Programs/CallyLab/$n";$p=$null
  try{
@@ -54,6 +54,7 @@ foreach($n in @('ROME','EDO','HEARTH','NIGHTSHIFT')){
 }
 $log | Set-Content "$PSScriptRoot/release/validation.txt"
 $log
+
 
 
 
