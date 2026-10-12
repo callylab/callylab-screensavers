@@ -1,0 +1,38 @@
+CallyLab Windows screensavers
+============================
+Windows 10/11, .NET Framework 4.x (included in Windows).
+
+INSTALL
+Extract the ZIP first. Run NAME-Setup.exe and click Install.
+No administrator rights are required. Installs under your local user profile,
+registers in Windows Settings > Apps, selects the screensaver, and sets a
+five-minute idle timeout. Your sign-in-on-resume setting is preserved.
+Open Windows "Change screen saver" to preview or adjust the idle timeout.
+Unsigned independent software: Windows may show a publisher/SmartScreen warning.
+Only run files obtained from the official callylab/callylab-screensavers releases.
+
+STANDALONE
+NAME.scr is the actual screensaver, with no setup dependency. Keep it in a
+permanent folder; right-click > Install opens Windows Screen Saver Settings.
+Right-click > Test runs fullscreen; moving the mouse or pressing a key exits.
+Double-clicking opens configuration. /demo runs a windowed preview.
+The three historical scenes are completely silent. NIGHTSHIFT retains its
+original soundtrack and settings, including the M mute shortcut.
+
+UNINSTALL
+Windows Settings > Apps > Installed apps > CallyLab NAME Screensaver > Uninstall.
+Or run the installed Uninstall.exe /uninstall. The original selection and idle
+settings are restored only if this screensaver is still selected; a later
+selection is preserved. No system directories or administrator changes.
+Saved visual preferences are retained under LocalAppData for future reinstalls.
+Standalone users: select another screensaver, then delete the .scr file.
+
+AUTOMATION
+NAME-Setup.exe /install /quiet
+NAME-Setup.exe /uninstall /quiet
+Exit code 0 means completed; nonzero means failure.
+Do not delete the installation folder before uninstalling: it stores the
+previous Windows screensaver settings used for restoration.
+
+Source and releases: https://github.com/callylab/callylab-screensavers
+Website: https://callylab.xyz
